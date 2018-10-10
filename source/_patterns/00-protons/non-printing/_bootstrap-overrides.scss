@@ -1,6 +1,15 @@
 // Bootstrap variable customization
 // See all variables available at: ~bootstrap/scss/_variables.scss
 
+// Bootstrap initial non-printing tools. DO NOT REMOVE.
+// Importing these first allows for reference to other BS variables within our
+// own custom overrides further below, i.e.
+//   $btn-padding-y-sm: $btn-padding-y/2;
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+
+// START: Custom overrides
+
 // Colors
 $theme-colors: (
   'blerp': $color-blerp,
@@ -16,7 +25,10 @@ $btn-border-radius: 0.25rem;
 // Cards
 $card-border-width: 1px;
 
-// Bootstrap non-printing tools. DO NOT REMOVE.
+// END: Custom overrides
+
+// Bootstrap final non-printing tools. DO NOT REMOVE.
+// Any overrides set above are finalized below.
 @import '~bootstrap/scss/functions';
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
