@@ -41,7 +41,7 @@
     "new": "yo ./tools/new-component/index.js"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.6",
+    "@fortawesome/fontawesome-svg-core": "^1.2.11",
     "@fortawesome/free-solid-svg-icons": "^5.4.1",
     "bootstrap": "^4.1.3",
     "enquire.js": "^2.1.6",
