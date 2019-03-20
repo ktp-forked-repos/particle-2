@@ -101,7 +101,7 @@
     "url-loader": "^1.1.2",
     "vue-jest": "^3.0.0",
     "vue-loader": "^15.4.2",
-    "vue-template-compiler": "^2.5.17",
+    "vue-template-compiler": "^2.6.10",
     "vue-testing-library": "^0.6.3",
     "webpack": "^4.23.1",
     "webpack-cli": "^3.1.2",
